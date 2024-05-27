@@ -1,0 +1,509 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Rubik:ital,wght@0,300;1,300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 100; */
+    font-style: normal;
+}
+
+.icon {
+    color: rgb(244, 236, 236);
+    font-size: 30px;
+    padding-right: 10px;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+.icon:hover {
+    color: rgb(62, 7, 212);
+}
+.button {
+    background-color: transparent;
+    color: rgb(181, 178, 178);
+    box-shadow: none;
+    /* border: none; */
+}
+.button:hover {
+    background-color: rgb(52, 49, 49);
+    color: white;
+}
+#jobdivbg{
+    /* background-color: rgba(10, 50, 30, 0.2); */
+    background-color: white;
+    font-weight: 400;
+
+}
+#homefirstdiv{
+    background-color:rgba(12, 7, 7, 0.03);
+
+}
+#homefirstdiv h2{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+
+.damzpage {
+    background-image: url("../public/image/back3.jpg");
+    /* background: linear-gradient(166deg, rgb(84, 168, 201), rgb(155, 73, 58) ) ; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    color: white;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 400;
+    box-shadow: 1px 2px 5px black;
+}
+.textdiv h3 {
+    font-size: 80px;
+    background: -webkit-linear-gradient(180deg, #0422ce, #dc2525);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+    font-weight: bolder;
+}
+.formdiv {
+    box-shadow: 5px 2px 5px rgb(77, 76, 76);
+    /* background-color: rgba(239, 233, 233,0.6); */
+    background-color: white;
+    color: rgb(9, 8, 8);
+    height: auto;
+}
+
+.formdiv form {
+    padding: 10px;
+    margin: 10px;
+}
+input,
+select,
+#span {
+    box-shadow: 1px 2px 1px black;
+}
+#search{
+    box-shadow: none;
+}
+form label {
+    color: black;
+}
+
+.formdiv h1 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-decoration: underline;
+    background: -webkit-linear-gradient(145deg, #09b815, #f7eb07fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: none;
+    text-decoration: none;
+    outline: none;
+}
+#formp {
+    text-align: center;
+    /* font-style: italic; */
+    border: none;
+    text-decoration: none;
+    outline: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+#pform{
+    font-weight: normal;
+    font-size: 16px;
+    font-style: italic;
+    padding-left: 5px;
+}
+.icon {
+    min-height: 100%;
+}
+
+.fom {
+    overflow: auto;
+    padding-bottom: 80px;
+}
+footer {
+    /* background-image: url('./image/bgm2.jpg'); */
+    background-size: cover;
+    object-fit: cover;
+    background-color: rgb(28, 27, 27);
+}
+.cont {
+    background-color: rgba(255, 255, 255, 0.2);
+    background-size: cover;
+    box-shadow: 2px 5px 5px rgb(5, 4, 4);
+}
+.link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    object-fit: cover;
+}
+
+#linkmove {
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.8s;
+    color: black;
+    padding: 10px;
+}
+#linkmove:hover {
+    /* color: red; */
+    background-color: lightblue;
+    color: white;
+    border-radius: 7px;
+}
+#catemove {
+    text-decoration: none;
+    color: white;
+}
+#catemove:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* FOOTER MEDIA QUARY  */
+
+@media only screen and (max-width: 765px) {
+    #foothead {
+        grid: none;
+        display: block;
+        width: 100%;
+    }
+    #footbody {
+        width: 100%;
+        text-align: center;
+    }
+    #footbody ul li {
+        display: inline-block;
+        padding: 5px;
+        margin: auto;
+    }
+    #categoryhead {
+        display: block;
+        text-align: center;
+        float: none;
+        grid: none;
+        width: 100%;
+    }
+    #categorybody {
+        width: 100%;
+    }
+    #industryhand {
+        grid: none;
+        float: none;
+        display: block;
+        width: 100%;
+    }
+    #industrybody {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    #signinrow {
+        display: block;
+        padding: 20px;
+    }
+    #signincolumn {
+        margin-top: 0;
+        padding: 20px;
+    }
+    .labelx {
+        color: white;
+    }
+
+    #bodygrid{
+        display: block;
+        width: 100%;
+        flex: none;
+        grid: none;
+        float: none;
+    }
+
+    #recosmain{
+        grid: none;
+        flex: none;
+        float: none;
+        display: block;
+    }
+    #recosdiv{
+        display: block;
+        width: 100%;
+        padding: 10px;
+
+
+    }
+   
+}
+#signincolumn {
+    margin: 15px;
+    padding: 10px;
+}
+#signinrow p {
+    padding: 20px;
+    font-size: 18px;
+}
+#pageimagediv {
+    display: block;
+    padding-bottom: 10px;
+}
+#pageimagediv p {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+#pageuserimage {
+    width: 30px;
+    border-radius: 10px;
+    object-fit: cover;
+    display: flexbox;
+    height: 30px;
+}
+#carouselimage {
+    width: 100%;
+    object-fit: cover;
+    height: 50vh;
+}
+
+#signbody {
+    background-image: url("./image/forest2.jpg");
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1px;
+    padding: 0;
+}
+
+#spanconnect {
+    padding: 5px;
+}
+#spanconbody {
+    margin: 2px;
+}
+span {
+    color: red;
+    /* border: 1px solid black; */
+    /* margin-bottom: 15px; */
+}
+/* REGISTRATION DROPDOWN  */
+#regis-ul Link{
+    display: block;
+    width: 100%;
+    background-color: transparent;
+}
+#regis-ul ul{
+    background-color: transparent;
+    text-align: end;
+}
+#signuplink:hover{
+    background-color: #0422ce;
+    padding-top: 5px;
+    margin-top: 2px;
+    color: white;
+}
+#signuplink{
+    background-color: #2570e1;
+    padding-top: 5px;
+    margin-top: 2px;
+    color: white;
+    width: 70px;
+}
+#signinlink{
+    /* background-color: #2570e1; */
+    padding-top: 5px;
+    margin-top: 2px;
+    color: black;
+    width: 70px;
+}
+
+#homehead{
+    font-size: 30px;
+    background: -webkit-linear-gradient(165deg, red, #048c21,blue, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+}
+#jobbg{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#jobbghomehead{
+    font-size: 50px;
+    font-weight: 600;
+    background: -webkit-linear-gradient(165deg, gray, #c81818,  rgb(2, 2, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    text-align-last: center;
+}
+#jobbghomeheadh3{
+    font-size: 40px;
+    background: -webkit-linear-gradient(165deg, gray, #c81818,  rgb(2, 2, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-weight: 600;
+}
+
+#jobpostdiv{
+    background-color: rgba(147, 147, 147, 0.2);
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#jobpostdiv h6{
+    text-transform: capitalize;
+}
+#btnjobpost{
+    border: none;
+    border-radius: 20%;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+}
+#btnjobposted{
+    border: none;
+    border-radius: 15%;
+    padding-top:7px ;
+    color: red;
+    font-weight: bold;
+    width: 70px;
+
+}
+#btnjobposted:hover{
+    background-color: rgb(238, 241, 238);
+    color: #c81818;
+}
+#btnjobpost:hover{
+    background-color: rgb(210, 31, 31);
+
+}
+#jobpostdiv:hover{
+    background-color: rgba(147, 147, 147, 0.3);
+}
+#homeheader{
+    font-size: 25px;
+    background: -webkit-linear-gradient(165deg, red, #048c21);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+}
+#postingjob{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding:5px;
+    margin: 5px;
+    font-weight: 600;
+    text-align: center;
+    color:black;
+    background-color: rgba(19, 17, 17, 0.1);
+    border-radius: 7px;
+    font-size: 30px;
+    background: -webkit-linear-gradient(30deg, #000000, rgb(78, 31, 31) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+}
+#latestposthead{
+    background-color:transparent;
+    
+}
+#latestpost{
+    padding: 10px;
+    box-shadow: 1px 2px 3px rgb(242, 228, 228);
+    text-transform: capitalize;
+    
+    
+
+}
+#latestpost:hover{
+    background-color: rgb(245, 245, 236);
+    color: black;
+    cursor: pointer;
+
+
+}
+#latestlink{
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px;
+}
+#latestlink:hover{
+    text-decoration: underline;
+    background-color: #0422ce;
+    color: red;
+    border-radius: 7px;
+
+}
+
+
+#webname{
+    font-family: "Briem Hand", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    border-radius: 4px;
+    text-transform: capitalize;
+    transition: .4s;
+
+}
+#webname:hover{
+    color: #da1d1d;
+    /* text-transform: uppercase; */
+}
+#webnamer{
+    font-family: "Briem Hand", sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    font-style: normal;
+    background-color: rgba(20, 2, 2, 0.9);
+    background-image: url('./image/jd3.webp');
+    border-radius: 50%;
+    text-transform: capitalize;
+    transition: 2s;
+    
+}
+#webnamer:hover{
+    color: #da1d1d;
+}
+
+#searchimage{
+    width: 50px;
+    object-fit: cover;
+}
+#sugslogo{
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+#recosdiv{
+    margin-bottom: 15px;
+    box-shadow: 1px 2px 3px rgb(231, 231, 231);
+    background-color: rgb(247, 243, 238);
+    box-sizing: border-box;
+}
+#recos{
+    background-color: white;
+}
+#recos:hover{
+    cursor: pointer;
+    background-color: rgb(236, 233, 233);
+
+}
+#latestbtnid{
+    cursor: not-allowed;
+}
+#logoimage{
+    width: 30px;
+    border-radius: 7px;
+    
+}

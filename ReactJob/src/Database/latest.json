@@ -1,0 +1,60 @@
+[
+    {
+        "id": 1,
+        "type": "remote",
+        "location": "lagos",
+        "salary": "$1000-$1500",
+        "job_type": "front-desk officer",
+        "education": "bsc in business management",
+        "company": "abc bank"
+    },
+    
+    {
+        "id": 2,
+        "type": "fulltime",
+        "location": "porthigh court",
+        "salary": "#150,000",
+        "job_type": "sales rep",
+        "education": "bsc hnd, nd and ability to use microsoft office",
+        "company": "mima beverage"
+    },
+    
+    {
+        "id": 3,
+        "type": "intenship",
+        "location": "Abuja",
+        "salary": "$50,000",
+        "job_type": "logistic",
+        "education": "nd in any reputable field of science","company": "abc bank"
+    },
+    
+    {
+        "id": 4,
+        "type": "contract",
+        "location": "acra ghana",
+        "salary": "$1000",
+        "job_type": "business manager",
+        "education": "bsc, hnd in business management",
+        "company": "lala manufactural"
+    },
+    
+    {
+        "id": 5,
+        "type": "hybrid",
+        "location": "lagos",
+        "salary": "$1500",
+        "job_type": "digital marketing",
+        "education": "bsc, hnd power Bi, Python Aws","company": "llb insurance"
+    },
+    
+    {
+        "id": 6,
+        "type": "fulltime",
+        "location": "ibadan",
+        "salary": "#200,000",
+        "job_type": "fullstack developer",
+        "education": "python, php, c#, react js, javascript, aws, node js, mongo db, mysql",
+        "company": "apata tech"
+    }
+
+]

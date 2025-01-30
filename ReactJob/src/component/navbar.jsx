@@ -4,8 +4,6 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link,useNavigate  } from "react-router-dom";
 import swal from "sweetalert";
-
-
 import "../index.css";
 import axios from "axios";
 
@@ -19,7 +17,7 @@ function NavigationPage() {
         if (res.data.status === 200) {
             localStorage.removeItem("auth_token");
             localStorage.removeItem("auth_name");
-            swal("Success", res.data.message, "success");
+            swal("success", res.data.message, "Success");
             navigate("/");
 
         }
@@ -96,7 +94,6 @@ function NavigationPage() {
                         <Nav.Link as={Link} to="post">
                             Post
                         </Nav.Link>
-                      
 
 
                     </Nav>

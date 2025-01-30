@@ -30,9 +30,9 @@ const Signin = () => {
             if (res.data.status === 200) {
                 localStorage.setItem("auth_token", res.data.token);
                 localStorage.setItem("auth_name", res.data.username);
-                swal("Success", res.data.message, "success");
+                swal("success", res.data.message, "success");
                 navigate("/");
-            }else if(res.data.status === 401) {
+            }else if(res.data.message === 401) {
                 swal("warning", res.data.message, "warning");
             }else{
                 setloginInput({...loginInput, error_list: res.data.validation_errors  });
@@ -102,7 +102,7 @@ const Signin = () => {
                         >Submit</button>
                     </form>
                     <p id="pform">
-                        Don&apos;t Have an account !  
+                        Don&apos;t Have an account !
 
                           <Link as={Link} to="/Register">
                               SignUp
